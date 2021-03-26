@@ -42,6 +42,10 @@ public class Baralho {
         cartaAtual = 0;
     }
 
+    public boolean estaVazio() {
+        return monte.isEmpty();
+    }
+
     // retorna a carta na Lista "monte" indicada pela posição cartaAtual
     public Carta distribuir() {
         // se monte vazio
